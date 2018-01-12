@@ -31,7 +31,7 @@ class App extends Component {
       <div>
         {
         _.map(this.SYMBOLS, symbol =>
-           <Ticker symbol={symbol} price={this.state{symbol}}/>)
+           <Ticker symbol={symbol} price={this.state[symbol]}/>)
         }
       </div>
     );
